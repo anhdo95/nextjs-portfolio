@@ -10,11 +10,6 @@ Router.events.on('routeChangeError', () => NProgress.done())
 export default function Layout(props) {
   return (
     <div className="container">
-      <Head>
-        <title>Next Portfolio</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
-      </Head>
-
       <header className="header">
         <nav className="navbar">
           <Link href="/">
@@ -68,14 +63,6 @@ export default function Layout(props) {
         .footer {
           margin-top: auto;
           padding: 1rem;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        body {
-          margin: 0;
-          font-size: 110%;
-          color: #444;
         }
       `}</style>
     </div>
