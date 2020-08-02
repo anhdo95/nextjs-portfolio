@@ -5,7 +5,6 @@ export default class AppDocument extends Document {
     return (
       <html lang="vi">
         <Head>
-          <title>Next Portfolio</title>
           <meta name="description" content="A site for programming portfolio" />
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width" />

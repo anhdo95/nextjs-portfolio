@@ -10,6 +10,10 @@ Router.events.on('routeChangeError', () => NProgress.done())
 export default function Layout(props) {
   return (
     <div className="container">
+      <Head>
+        <title>Next Portfolio</title>
+      </Head>
+
       <header className="header">
         <nav className="navbar">
           <Link href="/">
